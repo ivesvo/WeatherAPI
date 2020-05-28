@@ -5,6 +5,7 @@ import {Button} from 'react-bootstrap'
 import { css } from "@emotion/core";
 import BounceLoader from "react-spinners/BounceLoader";
 import './App.css';
+import'./fonts/CirrusCumulus.woff'
 // import ForecastCard from './components/ForecastCard'
 // import { FlatList } from 'react-native-elements';
 

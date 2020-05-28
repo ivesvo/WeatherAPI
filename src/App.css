@@ -2,6 +2,15 @@ body {
   height: 100%;
   background-color: lightblue;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+
+}
+
+@font-face {
+ 
+  font-family: 'CirrusCumulus';
+  src: local('CirrusCumulus'), url(./fonts/CirrusCumulus.woff) format('woff');
+  
 }
 .side-bar{
   top: 0;
@@ -33,13 +42,14 @@ body {
 h1{
   font-weight: bold;
   font-size: 40px;
+  font-family: CirrusCumulus;
 }
 
 .location{
   color: #e8e04d;
+  font-size: 60px;
 
 }
-
 
 .week{
   display: flex;
@@ -57,6 +67,7 @@ h1{
 
 .btn-info{
   height: 200px;
+  font-size: 20px;
 }
 .btn:hover{
   background-color: #18bcd6;
